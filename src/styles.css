@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  max-width: 100vw;
+  padding: 2vw 20vw;
+  background: royalblue;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.fullsection {
+  background: whitesmoke;
+  height: auto;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.title {
+  font-size: large;
+}
+
+.display {
+  font-size: medium;
+}
+
+/* styles for projects section */
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  padding: 0 100px;
+}
+
+.project {
+  background-color: honeydew;
+  border: 4px solid rgb(50, 50, 50);
+  border-radius: 8px;
+  padding: 4px 8px;
+}
+
+.skills {
+  margin: 10px;
+}
+
+.skill {
+  background-color: aquamarine;
+  border: 1px solid grey;
+  border-radius: 2px;
+  padding: 4px 8px;
+  margin: 0 2px;
+}
+
+.stack-title {
+  font-size: large;
+  font-weight: bold;
+  margin-right: 10px;
+}
